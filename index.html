@@ -6,29 +6,64 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
     <link rel="stylesheet" href="index.css">
-<link rel="icon" href="https://avatars1.githubusercontent.com/u/20617471?v=4" type="image/png"></head>
-<body>
+  <link rel="icon" href="https://avatars1.githubusercontent.com/u/20617471?v=4" type="image/png"></head>
+
+  <body>
     <div id="loading">
-        <div id="spinner"></div>
+      <div id="spinner"></div>
     </div>
     <div id="profile">
-        <div id="profile_img" style="background: url(https://avatars1.githubusercontent.com/u/20617471?v=4) center;"></div>
-        <div id="username"><span style="display:block;">George Barker</span>@georgebarker</div>
-        <div id="userbio" style="display: block;">Software Engineer.
+      <div id="profile_img" style="background: url(https://avatars1.githubusercontent.com/u/20617471?v=4) center;"></div>
+      <div id="username"><span style="display:block;">George Barker</span><a href="https://github.com/georgebarker">@georgebarker on GitHub</a></div>
+      <div id="userbio" style="display: block;">Software Engineer.
 Java Oracle Certified Associate.
 Certified SCRUM Master.</div>
-        <div id="about">
+      <div id="about">
                 <span style="display:none;"><i class="fas fa-users"></i> &nbsp; null</span>
                 <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
-                <span style="display:block;"><i class="fas fa-link"></i> &nbsp; georgebarker.dev</span>
+                <span style="display:block;"><i class="fas fa-link"></i> &nbsp; <a href="georgebarker.dev">georgebarker.dev</a></span>
                 <span style="display:none;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; null</span>
-                <span style="display:none;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span></div>
+                <span style="display:none;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span>
+                <div class="socials">
+                <span style="display:none !important;"><a href="https://www.twitter.com/null" target="_blank" class="socials"><i class="fab fa-twitter"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.dribbble.com/null" target="_blank" class="socials"><i class="fab fa-dribbble"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.linkedin.com/in/null/" target="_blank" class="socials"><i class="fab fa-linkedin-in"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.medium.com/@null/" target="_blank" class="socials"><i class="fab fa-medium-m"></i></a></span>
+                </div>
+                </div>
     </div>
     <div id="display">
-        <div id="work">
-            <h1>Work.</h1>
-            <div class="projects" id="work_section">
+      <div id="work">
+        <h1>Portfolio.</h1>
+        <div class="projects" id="work_section">
+                        <a href="https://github.com/georgebarker/iot-lock-system" target="_blank">
+                        <section>
+                            <div class="section_title">iot-lock-system</div>
+                            <div class="about_section">
+                            <span style="display:block;">Java IOT system using a Phidget RFID Scanner, motor and an Android app to emulate a door locking system, using MQTT and MySQL to send and record events.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/georgebarker/ChittrApp" target="_blank">
+                        <section>
+                            <div class="section_title">ChittrApp</div>
+                            <div class="about_section">
+                            <span style="display:block;">Chittr is a totally original, unique and non-plagiarised platform for microblogging.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
                         <a href="https://github.com/georgebarker/georgebarker.github.io" target="_blank">
                         <section>
                             <div class="section_title">georgebarker.github.io</div>
@@ -36,7 +71,7 @@ Certified SCRUM Master.</div>
                             <span style="display:block;">Portfolio website, built with Gitfolio.</span>
                             </div>
                             <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
                                 <span><i class="fas fa-star"></i>&nbsp; 0</span>
                                 <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
                             </div>
@@ -50,6 +85,45 @@ Certified SCRUM Master.</div>
                             </div>
                             <div class="bottom_section">
                                 <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; C</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/georgebarker/StationServer" target="_blank">
+                        <section>
+                            <div class="section_title">StationServer</div>
+                            <div class="about_section">
+                            <span style="display:block;">2nd year Advanced Programming University Assignment. The back end service used by StationsApp, retrieves from a SQLite database, uses an old Sun HTTP library as required by the assignment specification.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/georgebarker/PropertySalesApplication" target="_blank">
+                        <section>
+                            <div class="section_title">PropertySalesApplication</div>
+                            <div class="about_section">
+                            <span style="display:block;">2nd year University Advanced Programming Assignment. Java Swing UI app that takes a SQLite database of historic UK property sales and provides and interface to search, view and graph the data.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/georgebarker/StationsApp" target="_blank">
+                        <section>
+                            <div class="section_title">StationsApp</div>
+                            <div class="about_section">
+                            <span style="display:block;">2nd year University Advanced Programming Assignment. Android app that uses the StationServer to display the five nearest train stations to you, using GPS location.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
                                 <span><i class="fas fa-star"></i>&nbsp; 0</span>
                                 <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
                             </div>
@@ -93,79 +167,41 @@ Certified SCRUM Master.</div>
                                 <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
                             </div>
                         </section>
-                        </a>
-                        <a href="https://github.com/georgebarker/StationsApp" target="_blank">
-                        <section>
-                            <div class="section_title">StationsApp</div>
-                            <div class="about_section">
-                            <span style="display:block;">2nd year University Advanced Programming Assignment. Android app that uses the StationServer to display the five nearest train stations to you, using GPS location.</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/georgebarker/StationServer" target="_blank">
-                        <section>
-                            <div class="section_title">StationServer</div>
-                            <div class="about_section">
-                            <span style="display:block;">2nd year Advanced Programming University Assignment. The back end service used by StationsApp, retrieves from a SQLite database, uses an old Sun HTTP library as required by the assignment specification.</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/georgebarker/PropertySalesApplication" target="_blank">
-                        <section>
-                            <div class="section_title">PropertySalesApplication</div>
-                            <div class="about_section">
-                            <span style="display:block;">2nd year University Advanced Programming Assignment. Java Swing UI app that takes a SQLite database of historic UK property sales and provides and interface to search, view and graph the data.</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
                         </a></div>
-        </div>
-        <div id="forks" style="display:none;">
-            <h1>Forks.</h1>
-            <div class="projects" id="forks_section"></div>
-        </div>
-        <div id="blog_section">
-            <h1>Blog.</h1>
-            <div id="blogs"></div>
-        </div>
-        <div id="footer">
-            <a href="https://github.com/imfunniee" target="_blank">made on earth by a human</a>
-        </div>
+      </div>
+      <div id="forks" style="display:none;">
+        <h1>Forks.</h1>
+        <div class="projects" id="forks_section"></div>
+      </div>
+      <div id="blog_section">
+        <h1>Blog.</h1>
+        <div id="blogs"></div>
+      </div>
+      <div id="footer">
+        <a href="https://github.com/imfunniee" target="_blank">made on earth by a human</a>
+      </div>
     </div>
     <script type="text/javascript">
-    setTimeout(function(){
+      setTimeout(function() {
         document.getElementById("loading").classList.add("animated");
         document.getElementById("loading").classList.add("fadeOut");
-        setTimeout(function(){
-        document.getElementById("loading").classList.remove("animated");
-        document.getElementById("loading").classList.remove("fadeOut");
-        document.getElementById("loading").style.display = "none";
-        },800);
-    },1500);
-    $.getJSON("blog.json", function(blog){
+        setTimeout(function() {
+          document.getElementById("loading").classList.remove("animated");
+          document.getElementById("loading").classList.remove("fadeOut");
+          document.getElementById("loading").style.display = "none";
+        }, 800);
+      }, 1500);
+      $.getJSON("blog.json", function(blog) {
         blog = blog || [];
-        if(blog.length == 0){
-            return document.getElementById("blog_section").style.display = "none";
+        if (blog.length == 0) {
+          return (document.getElementById("blog_section").style.display =
+            "none");
         }
-        for(var i = 0; i < blog.length; i++){
-            $("#blogs").append(`
+        for (var i = 0; i < blog.length; i++) {
+          $("#blogs").append(`
             <a href="./blog/${blog[i].url_title}/" target="_blank">
                 <section>
-                    <img src="${blog[i].top_image}">
+                    <img src="./blog/${blog[i].url_title}/${blog[i].top_image}">
                     <div class="blog_container">
                         <div class="section_title">${blog[i].title}</div>
                         <div class="about_section">
@@ -176,9 +212,37 @@ Certified SCRUM Master.</div>
             </a>
             `);
         }
-    }).fail(function(){
-        return document.getElementById("blog_section").style.display = "none";
-    });
+      }).fail(function() {
+        return (document.getElementById("blog_section").style.display = "none");
+      });
     </script>
+
+    <script>
+      const magicProjectsGrid = new MagicGrid({
+        container: "#work_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      const magicForksGrid = new MagicGrid({
+        container: "#forks_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      $("document").ready(() => {
+        magicProjectsGrid.listen();
+        magicForksGrid.listen();
+      });
+    </script>
+  
 
 </body></html>

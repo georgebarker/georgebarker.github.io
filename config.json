@@ -3,9 +3,16 @@
   "username": "georgebarker",
   "name": "George Barker",
   "userimg": "https://avatars1.githubusercontent.com/u/20617471?v=4",
-  "sort": "created",
-  "order": "asc",
+  "sort": "updated",
+  "order": "desc",
   "includeFork": false,
-  "theme": "dark.css"
+  "theme": "dark.css",
+  "types": [
+   "owner"
+  ],
+  "twitter": null,
+  "linkedin": null,
+  "medium": null,
+  "dribbble": null
  }
 ]
